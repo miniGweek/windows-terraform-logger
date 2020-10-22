@@ -1,11 +1,11 @@
 # windows-terraform-logger
 
 ## Description
-- To log all terraform commands and their outputs to a flat file for traceability and checking later. Terraform trace is too verbose, this logging will log whatever you see on the console.
-Uses powershell modules and profile to achieve it.
-The folder is called uposh-terraform as in User Powershell Terraform. The folder structure and files follow powershell module conventions.
+- To log terraform commands and their outputs to a flat file for traceability and checking later. Terraform trace is too verbose, this logging will log whatever you see on the console and execution time.
+- Uses Powershell modules and profile to achieve it.
+- The folder is called uposh-terraform as in User Powershell Terraform. The folder structure and files follow powershell module conventions.
 
- - Kudos to **Nick Spreitzer** for blogging about how to write Powershell Modules in a simple straight forward manner @ https://refactorsaurusrex.com/post/2017/composing-a-powershell-module-from-multiple-script-files/  Made my life easier and made this possible.
+- Kudos and Thanks to **Nick Spreitzer** for blogging about how to write Powershell Modules in a simple straight forward manner @ https://refactorsaurusrex.com/post/2017/composing-a-powershell-module-from-multiple-script-files/  Made my life easier and made this possible.
 
 
 ## Usage
