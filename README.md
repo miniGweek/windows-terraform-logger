@@ -79,4 +79,7 @@ Command finished in directory C:\........
 Command duration Terraform-Init : 5619
    ```
   2. Open the log file , the log file will have today's date as name. It will capture the exact content you see on the console. Every terraform command will be appended to the file and every day a new file will be generated.
+   
+## Contact
+- I am reachable at rahul.git@outlook.com for suggestions, queries. Cheers!
   
