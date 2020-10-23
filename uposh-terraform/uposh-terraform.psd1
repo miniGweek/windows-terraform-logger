@@ -9,7 +9,8 @@
     '.\functions\Terraform-Apply.ps1',
     '.\functions\Terraform-GetUpdate.ps1',
     '.\functions\Get-StartTimeMessage.ps1',
-    '.\functions\Get-EndTimeMessage.ps1'
+    '.\functions\Get-EndTimeMessage.ps1',
+    '.\functions\Set-UPoshTerraformLoggingMethods.ps1'
 
   )
   FunctionsToExport = @('*')

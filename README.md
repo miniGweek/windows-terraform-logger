@@ -17,7 +17,7 @@
 
 ## Steps to configure it
 1.  The folder **uposh-terraform** contains Powershell functions and is a Powershell module with a manifest. You will either need to put this folder in a directory which is already part of **PSModulePath** or you will need to add the directory to the **PSModulePath**. This is an environment variable so changing it is straight forward.
-2.  The folder where you wish to log terraform outputs is referred to as the  log file path. Set the log file path directory inside `Set-UPoshTerraformVariables.ps1`. Should look something like `$env:uposhtfvar_tflogdirpath = "D:\Logs\"`.
+2.  The folder where you wish to log terraform outputs is referred to as the  log file path. Set the log file path directory inside `Set-UPoshTerraformVariables.ps1`. Should look something like `$env:uposhtfvar_tflogdirpath = "D:\Logs\"`. Alternatively you can just set an environment variable on your machine `uposhtfvar_tflogdirpath = "your log path directory" `
 3.  Open Powershell profile file. Open Powershell and type in `notepad $profile`.
 4.  Importing the module - Enter the following in your profile file `Import-Module '[Folder Location where you have kept the module]\uposh-terraform\uposh-terraform.psd1'`.
 5.  Importing the functions - Add the following lines in your profile file.
