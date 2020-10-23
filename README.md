@@ -44,6 +44,7 @@
       -  Last line should be Command duration ( time elapsed in milliseconds)
    ```Powershell
    ❯ tfi
+Command running in directory C:\.......
 Command Start - Terraform-Init at 23/10/2020 10:11:25 875
 Initializing modules...
 
@@ -74,6 +75,7 @@ If you ever set or change modules or backend configuration for Terraform,
 rerun this command to reinitialize your working directory. If you forget, other
 commands will detect it and remind you to do so if necessary.
 Command End  - Terraform-Init at 23/10/2020 10:11:31 490
+Command finished in directory C:\........
 Command duration Terraform-Init : 5619
    ```
   2. Open the log file , the log file will have today's date as name. It will capture the exact content you see on the console. Every terraform command will be appended to the file and every day a new file will be generated.
